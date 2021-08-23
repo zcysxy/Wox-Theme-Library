@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ResourceDictionary.MergedDictionaries>
+    <ResourceDictionary Source="Base.xaml" />
+  </ResourceDictionary.MergedDictionaries>
+  
+  <Style x:Key="QueryBoxStyle" BasedOn="{StaticResource BaseQueryBoxStyle}" TargetType="{x:Type TextBox}">
+    <Setter Property="Background" Value="#dfe1e8" />
+    <Setter Property="Foreground" Value="#333e45" />
+  </Style>
+
+  <Style x:Key="WindowBorderStyle" BasedOn="{StaticResource BaseWindowBorderStyle}" TargetType="{x:Type Border}">
+    <Setter Property="Background" Value="#eff1f5" />
+    <Setter Property="CornerRadius" Value="10" />
+    <Setter Property="Margin" Value="10" />
+    <Setter Property="Window.Effect">
+      <Setter.Value>
+        <DropShadowEffect Color="#afb5b9" ShadowDepth="0" BlurRadius="10" />
+      </Setter.Value>
+    </Setter>
+  </Style>
+
+  <Style x:Key="WindowStyle" TargetType="{x:Type Window}" BasedOn="{StaticResource BaseWindowStyle}">
+    <Setter Property="Background" Value="Transparent" />
+  </Style>
+  <Style x:Key="PendingLineStyle" BasedOn="{StaticResource BasePendingLineStyle}" TargetType="{x:Type Line}"></Style>
+
+  
+  <Style x:Key="ItemTitleStyle" BasedOn="{StaticResource BaseItemTitleStyle}" TargetType="{x:Type TextBlock}">
+    <Setter Property="Foreground" Value="#a8adb9" />
+  </Style>
+  <Style x:Key="ItemSubTitleStyle" BasedOn="{StaticResource BaseItemSubTitleStyle}" TargetType="{x:Type TextBlock}">
+    <Setter Property="Foreground" Value="#a8adb9" />
+  </Style>
+  <Style x:Key="ItemTitleSelectedStyle" BasedOn="{StaticResource BaseItemTitleSelectedStyle}" TargetType="{x:Type TextBlock}">
+    <Setter Property="Foreground" Value="#525e69" />
+  </Style>
+  <Style x:Key="ItemSubTitleSelectedStyle" BasedOn="{StaticResource BaseItemSubTitleSelectedStyle}" TargetType="{x:Type TextBlock}">
+    <Setter Property="Foreground" Value="#515d68" />
+  </Style>
+  <SolidColorBrush x:Key="ItemHighlightColor" Color="#525e69" />
+  <SolidColorBrush x:Key="ItemSelectedHighlightColor" Color="#525e69" />
+  <SolidColorBrush x:Key="ItemSelectedBackgroundColor">#dfe1e8</SolidColorBrush>
+  <Style x:Key="ThumbStyle" BasedOn="{StaticResource BaseThumbStyle}" TargetType="{x:Type Thumb}"></Style>
+  <Style x:Key="ScrollBarStyle" BasedOn="{StaticResource BaseScrollBarStyle}" TargetType="{x:Type ScrollBar}"></Style>
+
+  <!-- Hide the scroll bar -->
+  <!-- Remove the following code to enable the scroll bar -->
+  <Style x:Key="BaseListboxStyle" TargetType="{x:Type ListBox}">
+    <Setter Property="Background" Value="Transparent" />
+    <Setter Property="BorderThickness" Value="0" />
+    <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
+    <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Hidden" />
+  </Style>
+</ResourceDictionary>

@@ -13,6 +13,7 @@
 
 ![](AlfredLight.png)
 ![](AlfredDark.png)
+![](AlfredGray.png)
 
 ## How to Apply
 
