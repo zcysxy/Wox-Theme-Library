@@ -44,7 +44,7 @@
 
   <Style x:Key="WindowBorderStyle" BasedOn="{StaticResource BaseWindowBorderStyle}" TargetType="{x:Type Border}">
     <Setter Property="Padding" Value="0" />
-    <Setter Property="Background" Value="#bb0b0f10" />
+    <Setter Property="Background" Value="#b00b0f10" />
     <Setter Property="CornerRadius" Value="4" />
     <Setter Property="Margin" Value="10" />
     <Setter Property="Window.Effect">
@@ -64,13 +64,13 @@
   </Style>
 
   <Style x:Key="ItemSubTitleStyle" BasedOn="{StaticResource BaseItemSubTitleStyle}" TargetType="{x:Type TextBlock}">
-    <Setter Property="Foreground" Value="#808182" />
+    <Setter Property="Foreground" Value="#807b7a" />
   </Style>
   <Style x:Key="ItemTitleSelectedStyle" BasedOn="{StaticResource BaseItemTitleSelectedStyle}" TargetType="{x:Type TextBlock}">
-    <Setter Property="Foreground" Value="#DDffffff" />
+    <Setter Property="Foreground" Value="#ffffff" />
   </Style>
   <Style x:Key="ItemSubTitleSelectedStyle" BasedOn="{StaticResource BaseItemSubTitleSelectedStyle}" TargetType="{x:Type TextBlock}">
-    <Setter Property="Foreground" Value="#d0e0f7" />
+    <Setter Property="Foreground" Value="#d7e4f8" />
   </Style>
   <SolidColorBrush x:Key="ItemHighlightColor" Color="White" />
   <SolidColorBrush x:Key="ItemSelectedHighlightColor" Color="White" />
