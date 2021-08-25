@@ -4,6 +4,8 @@
 * [Alfred](#alfred)
 * [How to Apply](#how-to-apply)
 
+> More to come!
+
 ## [Fluent Design](https://www.microsoft.com/design/fluent/#/)
 
 > Based on [this repo](https://github.com/gunt3001/WoxTheme-FluentLight).
