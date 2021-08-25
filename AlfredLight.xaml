@@ -38,7 +38,7 @@
 
   <Style x:Key="WindowBorderStyle" BasedOn="{StaticResource BaseWindowBorderStyle}" TargetType="{x:Type Border}">
     <Setter Property="Padding" Value="0" />
-    <Setter Property="Background" Value="#cdeff0f1" />
+    <Setter Property="Background" Value="#ddeff0f1" />
     <Setter Property="CornerRadius" Value="4" />
     <!-- Margin for shadow effect -->
     <Setter Property="Margin" Value="10" />
