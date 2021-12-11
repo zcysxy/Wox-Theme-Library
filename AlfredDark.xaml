@@ -44,7 +44,7 @@
 
   <Style x:Key="WindowBorderStyle" BasedOn="{StaticResource BaseWindowBorderStyle}" TargetType="{x:Type Border}">
     <Setter Property="Padding" Value="0" />
-    <Setter Property="Background" Value="#b00b0f10" />
+    <Setter Property="Background" Value="#dd0b0f10" /> <!-- First two letters control the opacity -->
     <Setter Property="CornerRadius" Value="4" />
     <Setter Property="Margin" Value="10" />
     <Setter Property="Window.Effect">
